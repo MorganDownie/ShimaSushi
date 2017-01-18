@@ -1,0 +1,27 @@
+/* CSS Document */
+header { 
+    background-image: url('../images/sushi-mat.gif');
+    background-position: 0% 100%;
+	background-repeat: repeat-x;
+	
+	@include breakpoint(medium down) { 
+		background-size: auto 80%;
+	}
+	
+	@include breakpoint(large up) { 
+		background-size: auto 70%;
+	}
+}
+footer {
+	background-image: url('../images/sushi_mat.gif');
+    background-position: 0% 100%;
+	background-repeat: repeat-x;
+}
+
+div { 
+ 	column-count: 2;
+    padding: 50px 30px 50px 80px;
+}
+}
+ 
+	
